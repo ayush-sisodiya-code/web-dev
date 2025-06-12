@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Cards</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: beige;
+      margin: 20px;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .profile-card {
+      background-color: whitesmoke;
+      width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    #name1, #name2, #name3 {
+      font-size: 1.2;
+      font-weight: bold;
+      margin: 10px 5px;
+    }
+
+    .role {
+      color: #888;
+      font-size: 0.95;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      font-size: 0.9;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    
+    <div class="profile-card">
+      <img src="/himanshu.jpeg" alt="Himanshu Shekhar">
+      <div id="name1">Himanshu Shekhar</div>
+      <div class="role">Student at ECE</div>
+      <p class="bio">Passionate and curious in sports and talking to others, although his mind is very sharp but he didn't uses it in studies.</p>
+    </div>
+
+    <div class="profile-card">
+      <img src="/gaurav.jpg" alt="Kumar Gaurav">
+      <div id="name2">Kumar Gaurav</div>
+      <div class="role">Student at EE</div>
+      <p class="bio">Loves eating foods and most of his time he uses his brain to get things at cheaper price, as he spends his energy there so he is lazy too.</p>
+    </div>
+
+    <div class="profile-card">
+      <img src="/nishant.jpg" alt="nishant">
+      <div id="name3">Nishant</div>
+      <div class="role">Student at Civil</div>
+      <p class="bio">His personality is like Silent and Calm person although spends more of his time to irriate others but he is very sharp in studies.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
